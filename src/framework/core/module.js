@@ -36,6 +36,8 @@ export class Module {
     }
 
     renderComponent(component) {
+        if(!wfm.isUndefined(component.onInit)) component.onInit()
         component.render();
+        if(!wfm.isUndefined(component.afterInit)) component.afterInit()
     }
 }

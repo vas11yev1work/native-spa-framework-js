@@ -1,8 +1,27 @@
-import {WFMComponent} from '../../framework';
+import {router, WFMComponent} from '../../framework'
 
 class HomePageComponent extends WFMComponent {
     constructor(config) {
         super(config);
+    }
+
+    events() {
+        return {
+            'click .js-link': 'goToTabs'
+        }
+    }
+
+    onInit() {
+        console.log('Component Init')
+    }
+
+    afterInit() {
+        console.log('After Init')
+    }
+
+    goToTabs(event) {
+        event.preventDefault()
+        router.navigate('tabs')
     }
 }
 
@@ -17,7 +36,7 @@ export const homePageComponent = new HomePageComponent({
                         <p>Пока тут нет никакого функционала</p>
                     </div>
                     <div class="card-action">
-                        <a href="#">Перейти на другую страницу</a>
+                        <a href="#not-existing-path" class="js-link">Перейти на другую страницу</a>
                     </div>
                 </div>
             </div>

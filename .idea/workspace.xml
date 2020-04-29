@@ -1,11 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="91b73488-a21c-465c-9f50-2436925c332e" name="Default Changelist" comment="" />
+    <list default="true" id="91b73488-a21c-465c-9f50-2436925c332e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/pages/home-page.component.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/pages/home-page.component.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/pages/tabs-page.component.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/pages/tabs-page.component.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/framework/core/component.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/framework/core/component.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/framework/core/module.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/framework/core/module.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/framework/tools/router.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/framework/tools/router.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1ZMnK9atJYD1r2UBuKqdKY6Ls1k" />
   <component name="ProjectViewState">
@@ -15,6 +27,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="preferences.sourceCode.JavaScript" />
@@ -43,6 +56,7 @@
       <updated>1584657765478</updated>
       <workItem from="1584657773852" duration="6880000" />
       <workItem from="1584727089587" duration="718000" />
+      <workItem from="1588183498850" duration="2972000" />
     </task>
     <servers />
   </component>
